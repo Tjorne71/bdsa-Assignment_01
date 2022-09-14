@@ -47,6 +47,16 @@ public class RegExprTests
     }
 
     [Fact]
+    public void Inner_Text_Of_Html_Tag_With_One_Result_And_Nested_Tags() { 
+        string html = @"<div>
+                            <p>The phrase <i>regular expressions</i> (and consequently, regexes) is often used to mean the specific, standard textual syntax for representing <u>patterns</u> that matching <em>text</em> need to conform to.</p>
+                        </div>";
+        var results = RegExpr.InnerText(html, "p");
+        Console.WriteLine(results);
+        Assert.Equal(new List<string>(){"The phrase regular expressions (and consequently, regexes) is often used to mean the specific, standard textual syntax for representing patterns that matching text need to conform to."}, results);
+    }
+
+    [Fact]
     public void UrlWithTitle() { 
         string html = $"<a href='/wiki/Biker-Jens' title='Biker-Jens'>Jens Romundstad</a>";
         var results = RegExpr.Url(html);
