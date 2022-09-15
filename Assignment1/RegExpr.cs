@@ -13,11 +13,10 @@ public static class RegExpr
     }
 
     public static IEnumerable<(int width, int height)> Resolution(string resolutions) {
-        var pattern = @"((?<width>[0-9]{1,4})x(?<height>[0-9]{1,4}))";
-        foreach (Match match in Regex.Matches(resolutions, pattern: pattern)) {
-            var width = int.Parse(match.Groups["width"].Value.Trim());
-            var height = int.Parse(match.Groups["height"].Value.Trim());
-            yield return (width, height);
+        string pattern = @"(?<reso_one>\d{3,4})x(?<reso_two>\d{3,4})";
+        Regex regex = new Regex(pattern);
+        foreach (Match match in regex.Matches(resolutions)) {
+            yield return (Int32.Parse(match.Groups[1].Value), Int32.Parse(match.Groups[2].Value));
         }
     }
     
