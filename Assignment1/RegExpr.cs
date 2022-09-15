@@ -21,7 +21,7 @@ public static class RegExpr
     }
     
     public static IEnumerable<string> InnerText(string html, string tag) {
-        var pattern = $"(<{tag}>(?<inner>.*?)<\\/{tag}>)";
+        var pattern = $"<({tag}).*?>(?<inner>.*?)</\\1>";
         foreach (Match match in Regex.Matches(html, pattern: pattern)) {
             var innerText = match.Groups["inner"].Value.Trim();
             innerText = Regex.Replace(innerText,"(</?\\w*>)*","");
@@ -31,7 +31,7 @@ public static class RegExpr
     }
 
     public static IEnumerable<string> Url(string html) {
-        var pattern = $"<a.*?(title=[\"'](?<title>.*?)[\"'])?>(?<inner>.*?)<\\/a>";
+        var pattern = "<a.*?(title=[\"'](?<title>.*?)[\"'])?>(?<inner>.*?)<\\/a>";
         foreach (Match match in Regex.Matches(html, pattern: pattern)) {
             var title = match.Groups["title"].Value.Trim().ToLower();
             var inner = match.Groups["inner"].Value.Trim().ToLower();
