@@ -21,6 +21,7 @@ public static class RegExpr
     }
     
     public static IEnumerable<string> InnerText(string html, string tag) {
+        tag = tag.ToLower();
         var pattern = $"<({tag}).*?>(?<inner>.*?)</\\1>";
         foreach (Match match in Regex.Matches(html, pattern: pattern)) {
             var innerText = match.Groups["inner"].Value.Trim();
