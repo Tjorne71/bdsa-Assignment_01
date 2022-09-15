@@ -17,24 +17,4 @@ public static class Iterators
             }
         }
     }
-
-    public static int GreaterCount<T, U>(IEnumerable<T> items, T x) where T : IComparable<T> {
-        var greaterThanCounter = 0;
-        foreach (var item in items)
-        {
-            if (item.CompareTo(x) >= 1)
-                greaterThanCounter++;
-        }
-        return greaterThanCounter;
-    }
-
-    // public static int GreaterCount<T, U>(IEnumerable<T> items, T x) where T : U where U : IComparable<U> {
-    //     var greaterThanCounter = 0;
-    //     foreach (var item in items)
-    //     {
-    //         if (item.CompareTo(x) >= 1)
-    //             greaterThanCounter++;
-    //     }
-    //     return greaterThanCounter;
-    // }
 }
