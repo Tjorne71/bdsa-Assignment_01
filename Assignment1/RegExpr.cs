@@ -31,15 +31,16 @@ public static class RegExpr
 
     }
 
-    public static IEnumerable<string> Url(string html) {
-        var pattern = "<a.*?(title=[\"'](?<title>.*?)[\"'])?>(?<inner>.*?)<\\/a>";
+    public static IEnumerable<(string url, string title)> Url(string html) {
+        var pattern = "<a.*?(href=[\"'](?<url>.*?)[\"'] *?)(title=[\"'](?<title>.*?)[\"'])?>(?<inner>.*?)<\\/a>";
         foreach (Match match in Regex.Matches(html, pattern: pattern)) {
+            var url = match.Groups["url"].Value.Trim();
             var title = match.Groups["title"].Value.Trim().ToLower();
             var inner = match.Groups["inner"].Value.Trim().ToLower();
             if(title != String.Empty) 
-                yield return title;
+                yield return (url, title);
             else 
-                yield return inner;
+                yield return (url, inner);
            
         }
 

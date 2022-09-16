@@ -6003,11 +6003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
+      "projectUniqueName": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
       "projectName": "Assignment1.Tests",
-      "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
+      "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
       "packagesPath": "/Users/tjornelund/.nuget/packages/",
-      "outputPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1.Tests/obj/",
+      "outputPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tjornelund/.nuget/NuGet/NuGet.Config"
@@ -6022,8 +6022,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {
-              "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj"
+            "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {
+              "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj"
             }
           }
         }

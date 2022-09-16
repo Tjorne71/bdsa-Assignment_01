@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {}
+    "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {}
   },
   "projects": {
-    "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {
+    "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj",
+        "projectUniqueName": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/Assignment1.csproj",
+        "projectPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/Assignment1.csproj",
         "packagesPath": "/Users/tjornelund/.nuget/packages/",
-        "outputPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/obj/",
+        "outputPath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tjornelund/.nuget/NuGet/NuGet.Config"

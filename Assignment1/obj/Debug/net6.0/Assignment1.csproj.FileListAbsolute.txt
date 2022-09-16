@@ -10,3 +10,15 @@
 /Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.dll
 /Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/ref/Assignment1.dll
 /Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.pdb
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/bin/Debug/net6.0/Assignment1.deps.json
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/bin/Debug/net6.0/Assignment1.dll
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/bin/Debug/net6.0/ref/Assignment1.dll
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/bin/Debug/net6.0/Assignment1.pdb
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.csproj.AssemblyReference.cache
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.AssemblyInfoInputs.cache
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.AssemblyInfo.cs
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.csproj.CoreCompileInputs.cache
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.dll
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/ref/Assignment1.dll
+/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1/obj/Debug/net6.0/Assignment1.pdb

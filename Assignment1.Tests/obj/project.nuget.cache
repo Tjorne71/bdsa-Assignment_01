@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DvmNI0WMRmA1kBuRiW5LcAmIRj3R9d4tncLkbugza6Kcmj34a6Tn/W1U3Jg3IvPDqgBvlmd5oVxEdrkENCDiA==",
+  "dgSpecHash": "P3d5RMD7jPIH5FglWmgrJNRi4iKyO1Ee5JSeBlfCEL6bHALK016Zefs8wxoNozvCrib3zUW3Sr14cGMmIFiGrw==",
   "success": true,
-  "projectFilePath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/C#/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
+  "projectFilePath": "/Users/tjornelund/Documents/ITU/Analysis, Design and Software Architecture/Exercises/bdsa-Assignment_01/Assignment1.Tests/Assignment1.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/tjornelund/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/tjornelund/.nuget/packages/microsoft.codecoverage/17.3.1/microsoft.codecoverage.17.3.1.nupkg.sha512",
